@@ -48,7 +48,7 @@
 }
 @media(max-width: 521px){
     #imgprod{
-        width: 390px;
+        width: 100%;
     }
 }
 @media(max-width: 390px){
@@ -80,6 +80,12 @@
         max-width: 100%;
     }
     .info-prod{
-        padding: 20px;
+        padding: 0px;
+    }
+    .div-size{
+        gap: 20px;
+    }
+    .largelineage{
+        width: 100%;
     }
 }

@@ -1,0 +1,216 @@
+.main-prod-osn{
+    background-color: #FFF;
+}
+.main-prod{
+    max-width: 1440px;
+    padding: 50px 0px 47px 80px;
+    display: flex;
+    gap: 67px;
+    margin: 0 auto;
+}
+#imgprod{
+    flex: 1 1 calc(45% - 67px);
+}
+.info-prod{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 calc(55% - 67px);
+}
+.h1-info{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+.cost{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    margin-bottom: 36px;
+}
+.h2-info{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    margin-bottom: 14px;
+}
+.p-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+.h3-size{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    margin-bottom: 24px;
+}
+.p-size{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+.h4-quantity{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+.div-size{
+    display: flex;
+    gap: 39px;
+}
+.quantity{
+    display: flex;
+}
+.btnminus{
+    padding: 12px 16px;
+    color: #EBE8F4;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btnplus{
+    padding: 12px 16px;
+    color: #EBE8F4;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.p-quan{
+    padding: 12px 16px;
+    background-color: #FFFFFF;
+    color: #2A254B;
+}
+.div-btn{
+    display: flex;
+    gap: 16px;
+}
+.div-quan{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.btn-add{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    background-color: #2A254B;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn-save{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    padding: 16px 32px;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.content-em-pr{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+.content-em-info{
+    padding: 71px 0px 66px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.get-em-pr{
+    display: flex;
+}
+.txt-em{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2A254B;
+    margin-bottom: 26px;
+}
+.txt-opis{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+.btn-content-pr{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background-color: #2A254B;
+    padding: 16px 32px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn-add:hover{
+    background-color: #1E193E;
+    transition: all 0.3s ease;
+}
+.input-content-pr{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    background-color: #F9F9F9;
+    outline: none;
+    padding: 17px 0px 15px 32px;
+    color: #2A254B;
+}
+.btn-add:active{
+    transform: scale(0.9);
+    transition: all 0.1s ease;
+}
+.btn-add:focus{
+    background-color: #1E193E;
+    transition: all 0.3s ease;
+}
+.btn-save:hover{
+    background-color: #F9F9F9;
+    transition: all 0.3s ease;
+}
+.btn-save:active{
+    transform: scale(0.9);
+    transition: all 0.1s ease;
+}
+.btn-save:focus{
+    background-color: #F9F9F9;
+    transition: all 0.3s ease;
+}
+.btnplus:hover{
+    background-color: #2A254B;
+    transition: all 0.3s ease;
+}
+.btnminus:hover{
+    background-color: #2A254B;
+    transition: all 0.3s ease;
+}
+.btn-content-pr:hover{
+    background-color: #4E4D93;
+    transition: all 0.3s ease;
+}

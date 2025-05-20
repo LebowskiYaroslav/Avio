@@ -1,0 +1,472 @@
+body{
+    font-family: Montserrat;
+}
+.header{
+    padding: 29px 0px 23px;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    margin-top: 7px;
+    width: 15px;
+    height: 2px;
+    background: #2A254B;
+    display: none;
+    position: relative;
+    transition: all 0.1s ease;
+}
+.menu.active{
+    background: inherit;
+}
+.menu::before,
+.menu::after{
+  content: '';
+  width: 15px;
+  height: 2px;
+  background: #2A254B;
+  position: absolute;
+  left: 0;
+  transition: all 0.1s ease;
+}
+.menu::before{
+    top: -4px;
+}
+.menu::after{
+    bottom: -4px;
+}
+.menu.active::before{
+  top: 0px;
+  transform: rotate(45deg);
+}
+.menu.active::after{
+  bottom: 0px;
+  transform: rotate(-45deg);
+}
+.main-osn{
+    margin-top: 60px;
+}
+.nav-menu{
+    display: flex;
+    gap: 44px;
+    height: 100%;
+}
+.menu{
+    display: none;
+}
+.svg-nav{
+    display: flex;
+    gap: 16px;
+}
+.nav-menu a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #726E8D;
+    cursor: pointer;
+}
+.hero-block{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #2A254B;
+    display: flex;
+    margin-bottom: 140px;
+}
+.h3-hero{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 41px;
+}
+.p-hero{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.sec-txt-hero{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    gap: 190px;
+}
+.a-hero{
+    max-width: 199px;
+    background-color: #F9F9F926;
+    padding: 16px 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+.a-hero-down{
+    display: none;
+    max-width: 342px;
+    background-color: #F9F9F926;
+    padding: 16px 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+.div-dop-feat{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.articles-dop-feat{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    flex-wrap: wrap;
+}
+.p-dop-f{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.frame-f{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    margin-bottom: 8px;
+}
+.txt-frame{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+.artc-d-f{
+    max-width: 270px;
+}
+.logo-feat{
+    margin-bottom: 16px;
+}
+#listings{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.collection-listings{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.h2-listings{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+.btn-collection{
+    max-width: 199px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    margin-bottom: 52px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.artc-col1, .artc-col2, .artc-col3, .artc-col4{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.p-product{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+.artc-col img{
+    margin-bottom: 24px;
+}
+.email-signup{
+    background-color: #F9F9F9;
+    padding: 52px 0px 65px 0px;
+}
+.back-email{
+    max-width: 1273px;
+    margin: 0 auto;
+    padding: 68px 0px 50px 0px;
+    background-color: #FFFFFF;
+}
+.content-email{
+    max-width: 571px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.p-con-email{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2A254B;
+}
+.smollp-con-email{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#2A254B;
+    margin-bottom: 64px;
+}
+.input-content-email{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    background-color: #F9F9F9;
+    outline: none;
+    padding: 17px 0px 15px 32px;
+    color: #2A254B;
+}
+.btn-content-email{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background-color: #2A254B;
+    padding: 16px 32px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.get-email-content{
+    display: flex;
+    margin: 0 auto;
+}
+.features{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+.txt-features{
+    padding: 72px 100px 50px 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h4-feat{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}  
+.p-feat{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #505977;
+}
+.btn-features{
+    background-color: #F9F9F9;
+    max-width: 173px;
+    padding: 16px 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+footer{
+    background-color: #2A254B;
+    padding-top: 58px;
+    padding-bottom: 56px;
+}
+.links{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.p-links a{
+    color: #FFFFFF;
+}
+.social{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ul-soc{
+    display: flex;
+    gap: 24px;
+}
+.links h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.p-links{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.social a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.ul-links{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.lineage{
+    max-width: 1280px;
+    border: 1px solid #4E4D93;
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+.input-email{
+    width: 496px;
+    padding: 15px;
+    font-size: 25px;
+    background-color: #4E4D93;
+    color: #F9F9F9;
+    outline: none;
+}
+.btn-email{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+    background-color: #FFFFFF;
+    padding: 16px 32px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.div-email{
+    display: inline-flex;
+}
+.a-hero:hover{
+    background-color: #F9F9F94D;
+    transition: all 0.3s ease;
+}
+.a-hero:focus{
+    background-color: #F9F9F94D;
+    transition: all 0.3s ease;
+}
+.a-hero-down:hover{
+    background-color: #F9F9F94D;
+    transition: all 0.3s ease;
+}
+.a-hero-down:focus{
+    background-color: #F9F9F94D;
+    transition: all 0.3s ease;
+}
+.btn-collection:hover{
+    background-color: #EBE8F4;
+    transition: all 0.3s ease;
+}
+.btn-collection:active{
+    transform: scale(0.9);
+    transition: all 0.1s ease;
+}
+.btn-collection:focus{
+    background-color: #EBE8F4;
+    transition: all 0.3s ease;
+}
+.btn-features:hover{
+    background-color: #EBE8F4;
+    transition: all 0.3s ease;
+}
+.btn-features:active{
+    transform: scale(0.9);
+    transition: all 0.1s ease;
+}
+.btn-features:focus{
+    background-color: #EBE8F4;
+    transition: all 0.3s ease;
+}
+.btn-email:hover{
+    background-color: #EBE8F4;
+    transition: all 0.3s ease;
+}
+.btn-email:active{
+    transform: scale(0.9);
+    transition: all 0.1s ease;
+}
+.btn-email:focus{
+    background-color: #EBE8F4;
+    transition: all 0.3s ease;
+}
+.artc-col1:hover, .artc-col2:hover, .artc-col3:hover, .artc-col4:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+.artc-col1 p, .artc-col2 p, .artc-col3 p, .artc-col4 p{
+    transition: all 0.3s ease;
+}
+.artc-col1:hover p, .artc-col2:hover p, .artc-col3:hover p, .artc-col4:hover p{
+    transform: scale(0.96);
+    transition: all 0.3s ease;
+}
+.artc-col1:active, .artc-col2:active, .artc-col3:active, .artc-col4:active{
+    transform: scale(0.99);
+    transition: all 0.1s ease;
+}
+.artc-col1:focus, .artc-col2:focus, .artc-col3:focus, .artc-col4:focus{
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+.btn-content-email:hover{
+    background-color: #4E4D93;
+    transition: all 0.3s ease;
+}
+.burger-menu.show{
+    transition: all 0.4s ease;
+}
+.burger-menu{
+    transition: all 0.4s ease;
+}
+.burger-menu:active{
+    transition: all 0.4s ease;
+}
+.burger-menu.show:active{
+    transition: all 0.4s ease;
+    transform: translateY(100%);
+}

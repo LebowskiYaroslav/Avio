@@ -1,0 +1,52 @@
+@media(max-width: 1327px){
+    .header{
+        padding: 29px 0px 23px 0px;
+    }
+}
+@media(max-width: 1217px){
+    .main-prod{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 675px){
+    .main-prod{
+        padding: 0px;
+    }
+    .info-prod{
+        padding: 28px 24px 22px;
+    }
+    .largelineage{
+        max-width: 342px;
+    }
+}
+@media(max-width: 521px){
+    #imgprod{
+        width: 390px;
+    }
+}
+@media(max-width: 390px){
+    .h1-info, .cost, .h2-info, .h3-size, .h4-quantity{
+        font-size: 20px;
+    }
+    .p-desc, .p-size{
+        font-size: 16px;
+    }
+    .quantity{
+        margin: 0 auto;
+    }
+    .p-quan{
+        padding: 12px 133px;
+    }
+    .div-btn{
+        flex-direction: column;
+    }
+    .cost{
+        margin-bottom: 0px;
+    }
+    .h2-info{
+        margin-top: 0px;
+    }
+    .main-prod{
+        gap: 0px;
+    }
+}

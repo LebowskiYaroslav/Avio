@@ -94,7 +94,7 @@
         font-size: 20px;
     }
     .img-artc{
-        max-width: 163px;
+        max-width: 150px;
     }
     .collection-listings{
         gap: 15px;
@@ -218,7 +218,7 @@
         flex-wrap: wrap;
     }
     .collection-listings{
-        gap: 10px;
+        justify-content: space-between;
     }
     
 }

@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", () =>{
 
     })
     span.addEventListener("click", function(){
-        span.classList.toggle("active")
+        span.classList.toggle("active");
     })
 })

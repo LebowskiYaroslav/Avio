@@ -76,4 +76,7 @@
     .main-prod{
         gap: 0px;
     }
+    .img-em-pr{
+        max-width: 100%;
+    }
 }

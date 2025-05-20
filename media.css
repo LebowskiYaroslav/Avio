@@ -130,7 +130,7 @@
     }
     .sofa{
         max-height: 358px;
-        max-width: 390px;
+        width: 100%;
     }
     footer{
         padding: 40px 24px 17px 24px;
@@ -220,4 +220,5 @@
     .collection-listings{
         gap: 10px;
     }
+    
 }

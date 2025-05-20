@@ -217,4 +217,7 @@
     .content-em-pr{
         flex-wrap: wrap;
     }
+    .collection-listings{
+        gap: 10px;
+    }
 }

@@ -2,6 +2,12 @@
     .features{
         flex-wrap: wrap;
     }
+    .txt-features{
+        padding: 50px 72px;
+    }
+    .sofa{
+        margin: 0 auto;
+    }
 }
 @media(max-width: 1100px){
     .svg-nav .menu{
@@ -77,9 +83,6 @@
     .input-email{
         max-width: 200px;
     }
-    .sofa{
-        max-width: 400px;
-    }
 }
 @media(max-width:390px){
     .btn-email{
@@ -143,10 +146,6 @@
         max-width: 342px;
         margin-top: 56px;
         margin-bottom: 34px;
-    }
-    .sofa{
-        max-height: 358px;
-        width: 100%;
     }
     footer{
         padding: 40px 24px 17px 24px;

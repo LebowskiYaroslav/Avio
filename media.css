@@ -90,6 +90,14 @@
         max-width: 200px;
     }
 }
+@media(max-width:423px){
+    .content-email{
+        padding: 0px 20px;
+    }
+    .btn-content-email{
+        padding: 16px 16px;
+    }
+}
 @media(max-width:390px){
     .btn-email{
         padding: 16px 10px;

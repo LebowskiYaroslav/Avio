@@ -45,16 +45,29 @@
     }
 }
 @media(max-width: 815px){
+      .links{
+        gap: 17px;
+        padding: 17px;
+        flex-wrap: wrap;
+    }
 }
-
 @media(max-width: 715px){
     .links{
         flex-wrap: wrap;
+    }
+    .dop-feat{
+        padding: 0px 20px;
+    }
+    .listings{
+        padding: 0px 20px;
     }
 }
 @media(max-width:620px){
     .seat-hero{
         max-width: 400px;
+    }
+    .links{
+        gap: 48px;
     }
 }
 @media(max-width:500px){
@@ -64,8 +77,14 @@
     .input-email{
         max-width: 200px;
     }
+    .sofa{
+        max-width: 400px;
+    }
 }
 @media(max-width:390px){
+    .btn-email{
+        padding: 16px 10px;
+    }
     header{
         padding: 0px 25px 0px 25px;
     }
@@ -92,9 +111,6 @@
     }
     .h2-listings{
         font-size: 20px;
-    }
-    .img-artc{
-        max-width: 150px;
     }
     .collection-listings{
         gap: 15px;

@@ -8,6 +8,9 @@
     .sofa{
         margin: 0 auto;
     }
+    .h2-listings{
+        margin-left:  20px;
+    }
 }
 @media(max-width: 1100px){
     .svg-nav .menu{
@@ -39,7 +42,7 @@
 @media(max-width: 1054px){
     .collection-listings{
         max-width: 650px;
-        margin: 0 auto;
+        justify-content: center;
     }
 }
 @media(max-width: 960px){
@@ -74,6 +77,9 @@
     }
     .links{
         gap: 48px;
+    }
+    .articles-dop-feat{
+        justify-content: center;
     }
 }
 @media(max-width:500px){
@@ -111,9 +117,6 @@
     .a-hero-down{
         display: block;
         text-align: center;
-    }
-    .h2-listings{
-        font-size: 20px;
     }
     .collection-listings{
         gap: 15px;
